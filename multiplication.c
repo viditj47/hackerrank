@@ -1,7 +1,13 @@
 #include<stdio.h>
 int main()
 {
-  int a=5,b=6,mul;
+  printf("Enter Your For Multiplication => ");
+  float a,b,mul;
+  printf("Enter Your First Number => ");
+  scanf("%f",&a);
+  printf("Enter Your Second Number => ");
+  scanf("%f",&b);
   mul=a*b;
-  printf("%d",mul)
+  printf("you multiplication is => ");
+  printf("%f",mul)
 }
