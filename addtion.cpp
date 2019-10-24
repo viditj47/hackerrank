@@ -3,7 +3,10 @@ using namespace std;
 int main()
 {
   int sum;
-  int a=1,b=5;
+  int a,b;
+  
+  printf("Enter two number for addtion ");
+  cin>>a>>b;
   sum=a+b;
-  cout<<sum;
+  cout<<"sum => "<<sum;
 }
